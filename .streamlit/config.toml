@@ -92,7 +92,7 @@ runOnSave = false
 
 # The port where the server will listen for browser connections.
 # Default: 8501
-port = 8501
+port = 8502
 
 # The base path for the URL where Streamlit should be served from.
 # Default: ""
@@ -135,7 +135,7 @@ gatherUsageStats = true
 # Port where users should point their browsers in order to connect to the app.
 # This is used to: - Set the correct URL for CORS and XSRF protection purposes. - Show the URL on the terminal - Open the browser
 # Default: whatever value is set in server.port.
-serverPort = 8501
+serverPort = 8502
 
 
 [ui]
@@ -146,23 +146,6 @@ serverPort = 8501
 hideTopBar = false
 
 
-[mapbox]
-
-# Configure Streamlit to use a custom Mapbox token for elements like st.pydeck_chart and st.map. To get a token for yourself, create an account at https://mapbox.com. It's free (for moderate usage levels)!
-# Default: ""
-token = ""
-
-
-[deprecation]
-
-# Set to false to disable the deprecation warning for the file uploader encoding.
-# Default: true
-showfileUploaderEncoding = true
-
-# Set to false to disable the deprecation warning for using the global pyplot instance.
-# Default: true
-showPyplotGlobalUse = true
-
 
 [theme]
 
@@ -172,18 +155,3 @@ base = "dark"
 # Primary accent color for interactive elements.
 primaryColor ="#35b6dc"
 
-# Background color for the main content area.
-#backgroundColor =
-
-# Background color used for the sidebar and most interactive widgets.
-#secondaryBackgroundColor =
-
-# Color used for almost all text.
-#textColor =
-
-# Font family for all text in the app, except code blocks. One of "sans serif", "serif", or "monospace".
-#font =
-
-# [theme]
-# base="dark"
-# primaryColor="#35b6dc"
